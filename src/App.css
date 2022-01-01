@@ -109,8 +109,8 @@ h1 {
 .todo-row:nth-child(4n + 1) {
   background: linear-gradient(
     90deg,
-    rgb(22, 38, 105) 0%,
-    rgb(87, 19, 129) 100%
+    rgb(22, 105, 66) 0%,
+    rgb(7, 101, 117) 100%
   );
 }
 
