@@ -16,7 +16,7 @@ function TodoList() {
     // console.log(...todos);
   };
   const updateTodo = (todoId, newValue) => {
-    if (!newValue || /^\s*$/.test(newValue)) {
+    if (!newValue.text || /^\s*$/.test(newValue.text)) {
       return;
     }
     setTodos((prev) =>
